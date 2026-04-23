@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infocera IT - Seamless Connections</title>
+  <meta name="description" content="Infocera empowers businesses with scalable software, cloud infrastructure, and data-driven strategies — engineered for performance, built for growth." />
+  <meta name="author" content="Infocera" />
+  <meta property="og:title" content="Infocera - Professional IT Services & Solutions" />
+  <meta property="og:description" content="Leading IT services provider delivering innovative technology solutions including web development, mobile apps, cloud solutions, AI/ML, cybersecurity, and data analytics." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@infocera_dev" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+  <div id="pageGrid"></div>
+
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-icon">⬡</span>
+        <span class="logo-text">INFOCERA<span class="logo-sub">Seamless Connections</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <!-- Theme Toggle -->
+        <li class="theme-toggle-wrap">
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+            <i class="fas fa-moon" id="themeIconMoon"></i>
+            <i class="fas fa-sun" id="themeIconSun"></i>
+          </button>
+        </li>
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#technologies">Technologies</a></li>
+        <li><a href="#insights">Insights</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#contact" class="nav-btn">Get Started</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-particles" id="heroParticles"></div>
+
+    </div>
+    <div class="container hero-container">
+      <div class="hero-text-center">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>Trusted by 500+ Global Enterprises</span>
+        </div>
+        <h1 class="hero-title">
+          <span class="title-line">Empowering Businesses</span>
+          <span class="title-line gradient-text">With Next-Gen IT Solutions</span>
+        </h1>
+        <p class="hero-subtitle">
+          Infocera empowers businesses with scalable software, cloud infrastructure, and data-driven strategies — engineered for performance, built for growth.
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary btn-glow">
+            <span>Get Started</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#services" class="btn btn-outline">
+            <span>Explore Services</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-lower">
+        <div class="hero-visual-wrap">
+          <div class="hero-3d-card">
+            <div class="card-inner">
+              <div class="floating-icons">
+                <div class="float-icon" style="--d:0s;--x:60px;--y:20px"><i class="fab fa-aws"></i></div>
+                <div class="float-icon" style="--d:0.5s;--x:-50px;--y:80px"><i class="fab fa-react"></i></div>
+                <div class="float-icon" style="--d:1s;--x:80px;--y:130px"><i class="fab fa-python"></i></div>
+                <div class="float-icon" style="--d:1.5s;--x:-60px;--y:190px"><i class="fab fa-node-js"></i></div>
+                <div class="float-icon" style="--d:2s;--x:40px;--y:250px"><i class="fab fa-docker"></i></div>
+                <div class="float-icon" style="--d:2.5s;--x:-80px;--y:310px"><i class="fas fa-database"></i></div>
+              </div>
+              <div class="hero-globe">
+                <div class="globe-ring ring1"></div>
+                <div class="globe-ring ring2"></div>
+                <div class="globe-ring ring3"></div>
+                <div class="globe-core">
+                  <span>IT</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-stats-grid">
+          <div class="stat-card">
+            <div class="stat-number-wrap">
+              <span class="stat-num" data-count="500">0</span><span class="stat-plus">+</span>
+            </div>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number-wrap">
+              <span class="stat-num" data-count="200">0</span><span class="stat-plus">+</span>
+            </div>
+            <span class="stat-label">Global Clients</span>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number-wrap">
+              <span class="stat-num" data-count="15">0</span><span class="stat-plus">+</span>
+            </div>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number-wrap">
+              <span class="stat-num" data-count="99">0</span><span class="stat-plus">%</span>
+            </div>
+            <span class="stat-label">Client Satisfaction</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#technologies" class="scroll-indicator">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"><i class="fas fa-chevron-down"></i></div>
+    </a>
+  </section>
+
+  <!-- TECHNOLOGIES SECTION -->
+  <section class="tech-section" id="technologies">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Our Stack</span>
+        <h2>Built on Modern, Proven Technologies</h2>
+        <p>We leverage industry-leading frameworks, languages, and platforms to build robust, scalable solutions across every layer of your stack.</p>
+      </div>
+      <div class="tech-ticker-wrapper">
+        <div class="tech-ticker" id="techTicker">
+          <!-- Set 1 -->
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS"><span>AWS</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"><span>React</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"><span>Python</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"><span>Node.js</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"><span>Docker</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"><span>MongoDB</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes"><span>Kubernetes</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular"><span>Angular</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" alt="WordPress"><span>WordPress</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP"><span>PHP</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><span>Java</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript"><span>TypeScript</span></a></div>
+          <!-- Set 2 (duplicate for seamless loop) -->
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS"><span>AWS</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"><span>React</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"><span>Python</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"><span>Node.js</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"><span>Docker</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"><span>MongoDB</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes"><span>Kubernetes</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular"><span>Angular</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" alt="WordPress"><span>WordPress</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP"><span>PHP</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><span>Java</span></a></div>
+          <div class="tech-item"><a href="#technologies"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript"><span>TypeScript</span></a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">What We Do</span>
+        <h2>End-to-End Technology Services</h2>
+        <p>From concept to deployment, we provide comprehensive IT solutions tailored to drive digital transformation for enterprises of all sizes.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <div class="service-icon"><i class="fas fa-cube"></i></div>
+          </div>
+          <h3>Software Products</h3>
+          <p>Enterprise-grade CRM, HR management, and custom business management systems built for scale.</p>
+          <a href="#services" class="service-link">View details <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <div class="service-icon"><i class="fas fa-globe"></i></div>
+          </div>
+          <h3>Web Development</h3>
+          <p>Custom websites, e-commerce platforms, and web applications using React, Angular, and modern frameworks.</p>
+          <a href="#services" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+          </div>
+          <h3>Mobile Applications</h3>
+          <p>Native, hybrid, and cross-platform mobile apps for iOS and Android with seamless user experiences.</p>
+          <a href="#services" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <div class="service-icon"><i class="fas fa-cloud"></i></div>
+          </div>
+          <h3>Cloud & DevOps</h3>
+          <p>AWS, Google Cloud, and Azure solutions with CI/CD pipelines, containerization, and infrastructure automation.</p>
+          <a href="#services" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+          </div>
+          <h3>Digital Marketing</h3>
+          <p>SEO, SEM, social media, PPC management, and brand consulting to drive measurable growth and ROI.</p>
+          <a href="#services" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <div class="service-icon"><i class="fas fa-brain"></i></div>
+          </div>
+          <h3>AI & Data Analytics</h3>
+          <p>Machine learning models, predictive analytics, and intelligent automation to unlock actionable business insights.</p>
+          <a href="#services" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+          </div>
+          <h3>UI/UX & Creative Design</h3>
+          <p>User-centric interfaces, brand identities, logo design, and marketing collateral that elevate your brand.</p>
+          <a href="#services" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+          </div>
+          <h3>QA & Testing</h3>
+          <p>Comprehensive software, security, and performance testing to ensure flawless releases every time.</p>
+          <a href="#services" class="service-link">View Capabilities <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+      <div class="section-cta">
+        <a href="#hero" class="btn btn-primary">Our Full Capabilities <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSIGHTS / BLOG SECTION -->
+  <section class="insights-section" id="insights">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Insights</span>
+        <h2>Technology Leadership Insights</h2>
+        <p>Expert analysis, industry trends, and actionable strategies from the Infocera technology leadership team.</p>
+      </div>
+      <div class="insights-grid">
+        <div class="insight-card">
+          <div class="insight-tag">AI & Development</div>
+          <h3>How AI Is Reshaping Enterprise Software Development in 2026</h3>
+          <p>From intelligent code generation to automated testing pipelines, AI is fundamentally transforming how enterprises build and ship software at scale.</p>
+          <a href="#insights" class="insight-link">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="insight-card">
+          <div class="insight-tag">Cloud</div>
+          <h3>Multi-Cloud Architecture: Building Resilient Infrastructure</h3>
+          <p>Best practices for designing fault-tolerant, cost-optimized multi-cloud deployments across AWS, Azure, and Google Cloud Platform.</p>
+          <a href="#insights" class="insight-link">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="insight-card">
+          <div class="insight-tag">Security</div>
+          <h3>Zero-Trust Security Frameworks for Modern Applications</h3>
+          <p>Implementing zero-trust architectures and advanced threat detection to protect enterprise applications in an increasingly complex landscape.</p>
+          <a href="#insights" class="insight-link">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="section-cta">
+        <a href="#insights" class="btn btn-outline">Explore All Insights <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="cta-section" id="cta">
+    <div class="cta-bg">
+      <div class="cta-particles"></div>
+    </div>
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Build Something Extraordinary?</h2>
+        <p>Partner with Infocera to build technology solutions that drive real results. Let's discuss your next project.</p>
+        <div class="cta-buttons">
+          <a href="#contact" class="btn btn-white">Get in Touch <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Contact Us</span>
+        <h2>Let's Start a Conversation</h2>
+        <p>Whether you have a specific project in mind or just want to explore possibilities, we're here to help.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-detail">
+            <div class="contact-detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-detail-text">
+              <span>Office Address</span>
+              <a href="#">First Floor, L29-L34, Block L,<br>Connaught Place, New Delhi,<br>Delhi - 110001, India</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon"><i class="fas fa-phone-alt"></i></div>
+            <div class="contact-detail-text">
+              <span>Phone Number</span>
+              <a href="tel:+918882824948">+91 8882824948</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon"><i class="fas fa-envelope"></i></div>
+            <div class="contact-detail-text">
+              <span>Email Address</span>
+              <a href="mailto:info@infocera.in">info@infocera.in</a>
+            </div>
+          </div>
+          <div class="footer-social" style="justify-content:flex-start;margin-top:28px;">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal">
+          <form id="contactForm" class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo">
+            <span class="logo-icon">⬡</span>
+            <span class="logo-text">INFOCERA<span class="logo-sub">Seamless Connections</span></span>
+          </a>
+          <p>Leading IT services provider delivering innovative technology solutions that drive business growth and digital transformation.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#insights">Insights</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Social</h4>
+          <ul>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Infocera IT. All Rights Reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
